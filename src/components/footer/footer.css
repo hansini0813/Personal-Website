@@ -1,0 +1,68 @@
+.footer {
+  width: 100vw;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  height: auto; /* Let the content define the height */
+  margin: 5% 0 0 0;
+  backdrop-filter: blur(20px);
+  background-color: #ffffff4d;
+  border-radius: 1.5em; /* Reduce border-radius for more subtle rounding */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping of link-container elements */
+  padding: 1.5em; /* Adjust padding to balance height */
+  gap: 1em; /* Adjust gap between link-container elements */
+}
+
+
+.link-container {
+  min-width: 7em; /* Fixed minimum width for each icon's container */
+  min-height: 3em; /* Fixed minimum height for each icon's container */
+  border-radius: 10%; /* Rounded corners */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.1s ease-in-out; /* Transition effect */
+  background-color: rgb(89, 13, 34, 0.3);/* Background color with transparency */
+  padding: 0.5em; /* Padding inside the container */
+  flex-direction: column;
+  font-family: 'Jost';
+}
+
+
+.social-links-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Stack icon and text vertically */
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.link-text {
+  color: #fff;
+  font-size: 0.7rem;
+}
+
+.social-link-item:hover .icon {
+  color: #800f2f;
+}
+
+.social-link-item:hover .link-text {
+  color: lighpink;
+}

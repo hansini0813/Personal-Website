@@ -1,0 +1,52 @@
+/* HomePage.css */
+
+.homepage-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 80vh;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 110px;
+    padding-bottom: 20px;
+    justify-content: center;
+    font-family: 'Jost';
+  }
+  
+  .homepage-section h1 {
+    color: var(--lightest-pink);
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    font-weight: 400;
+  }
+
+  .homepage-section h1, .homepage-section h2, .homepage-section h3, .homepage-section p {
+    margin: 5px 0; /* Reduce the margin between elements */
+    line-height: 1.2; /* Adjust line-height to control vertical space */
+  }
+  
+  .homepage-section h2 {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    margin-bottom: 30px;
+    font-family: "JostExtraBold";
+    color: var(--lightest-pink);
+  }
+  
+  .homepage-section h3 {
+    margin-top: -30px;
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    margin-bottom: 14px;
+    color: var(--lightest-pink);
+  }
+  
+  .homepage-section p {
+    margin: 0px;
+    max-width: 100%;
+    color: var(--lightest-pink);
+    font-size: 25px;
+    margin-bottom: 0%;
+  }
+
+  .homepage-section h3 .typer {
+    color: var(--medium-pink); /* This targets the span.typer inside h3 */
+  }
+  
