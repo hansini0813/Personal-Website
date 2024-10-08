@@ -6,5 +6,7 @@ module.exports = {
     title: `hansinimirchandani`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-netlify',
+  ],
 }
