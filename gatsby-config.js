@@ -7,6 +7,6 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
-    'gatsby-plugin-netlify',
+    'gatsby-plugin-netlify',  // Make sure this line is included
   ],
 }
