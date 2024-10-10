@@ -9,6 +9,18 @@
     text-align: center;
 }
 
+.timeline-item-content::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  width: 10px;
+  height: 10px;
+  background-color: #0073e6;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+
 .projects-container {
     display: flex;
     flex-wrap: wrap;

@@ -8,11 +8,11 @@ module.exports= {
             name: 'Projects',
             url: '/#projects',
         },
-        // {
-        //     name: 'Favourites',
-        //     url: '/#favourites',
+        {
+            name: 'Experiences',
+            url: '/#experiences',
             
-        // },
+        },
         {
             name: 'Contact',
             url: '/#contact',

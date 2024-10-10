@@ -6,6 +6,7 @@ import variables from '../styles/variables'; // Import your CSS variables
 import Footer from "../components/footer/footer"; // Import the footer component
 import HomePage from "./HomePage";
 import Projects from '../components/sections/projects'
+import Experiences from '../components/sections/experiences'
 
 
 const GlobalStyles = createGlobalStyle`
@@ -19,6 +20,9 @@ const IndexPage = () => {
       <Nav/>
       <section id="about">
         <HomePage /> 
+      </section>
+      <section id="experiences">
+        <Experiences/>
       </section>
       <section id="projects">
         <Projects /> 
