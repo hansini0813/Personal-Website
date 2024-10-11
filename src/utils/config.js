@@ -14,6 +14,11 @@ module.exports= {
             
         },
         {
+            name: 'Favourites',
+            url: '/#favourites',
+            
+        },
+        {
             name: 'Contact',
             url: '/#contact',
         }

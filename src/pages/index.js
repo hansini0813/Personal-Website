@@ -7,6 +7,7 @@ import Footer from "../components/footer/footer"; // Import the footer component
 import HomePage from "./HomePage";
 import Projects from '../components/sections/projects'
 import Experiences from '../components/sections/experiences'
+import Favourites from '../components/sections/favourites'
 
 
 const GlobalStyles = createGlobalStyle`
@@ -26,6 +27,9 @@ const IndexPage = () => {
       </section>
       <section id="projects">
         <Projects /> 
+      </section>
+      <section id="favourites">
+        <Favourites /> 
       </section>
       <section id="contact">
         <Footer/> 
